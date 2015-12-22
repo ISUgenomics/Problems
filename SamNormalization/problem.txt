@@ -1,0 +1,12 @@
+Intro:
+I have several billion reads aligned to a genome which will result in Trinity RNA-Seq genome guided assembly to take a really long time.
+
+Problem:
+I need to intelligently downsample the number of aligned reads in a given genomic interval.
+
+Thoughts:
+Reads will align to the same start point at the begining and ending of exons.
+The common response to this problem is why not do digital normalization prior to alignment but that would mean highly conserved genes will not have enough reads to cover the regions that multiply map.  ie (digital normalization will collapse repetitive regions in genes too)
+Ideas to solve problem:
+1)Awk or perl may work, perhaps a random subsampling so that no interval has more than the sampling chosen.
+
