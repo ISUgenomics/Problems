@@ -1,1 +1,11 @@
 No known solution
+
+
+#first attempt outline
+random sampling of reads from different intervals but only retain the names
+retain the SAM aligned subfile
+Determine which read names are missing a pair
+Add in the paired reads and resort
+
+Risk doubling the number of reads in really deep areas.
+Could reapply same random filter level a second time to reduce this effect.
