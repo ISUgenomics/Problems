@@ -1,0 +1,2 @@
+You are creating an example problem and need to randomize lines in a file.  Use the R1.txt file and create a file with the lines in random order.
+
