@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat $1 | paste - - - - | sort -k1,1 -S 3G | tr '\t' '\n' > $1.sort
+

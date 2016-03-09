@@ -1,0 +1,2 @@
+There are two fastq files but they are not sorted in order by ID.  Your task is to order the fastq files by ID.
+
