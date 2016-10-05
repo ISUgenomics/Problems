@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "congratulations you were able to execute this program"
+echo "include in your answer this output and the reason why you couldn't execute the file"
